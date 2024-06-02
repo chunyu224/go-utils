@@ -2,13 +2,11 @@ module github.com/chunyu224/go-utils/entgo
 
 go 1.22.3
 
-replace github.com/chunyu224/go-utils => ../
-
 require (
 	entgo.io/contrib v0.5.0
 	entgo.io/ent v0.13.1
 	github.com/XSAM/otelsql v0.31.0
-	github.com/chunyu224/go-utils v0.0.0-00010101000000-000000000000
+	github.com/chunyu224/go-utils v1.0.0
 	github.com/go-kratos/kratos/v2 v2.7.3
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.9.0

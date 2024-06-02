@@ -2,8 +2,6 @@ module github.com/chunyu224/go-utils/geoip
 
 go 1.22.3
 
-replace github.com/chunyu224/go-utils => ../
-
 require (
 	github.com/go-kratos/kratos/v2 v2.7.3
 	github.com/oschwald/geoip2-golang v1.9.0
